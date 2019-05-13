@@ -1,6 +1,4 @@
 # BTVN-Deeplearning
 #Nhóm 1- CNN -Tensorflow
-Problem statement :
--In this Section we are implementing Convolution Neural Network(CNN) Classifier for Classifying dog and cat images. The Total number of images available for training is 25,000 and final testing is done on seperate 10,000 images.
-Test Train Split:
--Image training set contain 12500 images for each category. I split those into 80% train and 20% means test Split each class images into 10,000 for train and 2,500 for test.
+Convolution Neural Network(CNN) Classifier for Classifying dog and cat images. The Total number of images available for training is 25,000 and final testing is done on seperate 10,000 images. Dùng thư viện tensorflow để huấn luyện Model.Đầu vào của model là hình ảnh RGB có shape là 64x64x3. Chạy file cnn-tensor.py để dự đoán hình chó hoặc mèo.
+Accuracy trung bình dự đoán được với các hình test là 97.56%
